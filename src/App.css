@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+/* In your component's CSS file */
+@import 'animate.css';
+
+
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: "Poppins";
+}
+
+.hero {
+  background-image: url("./assets/imgs/four.jpg");
+  background-position: center;
+}
+.cover {
+  background-color: rgba(0,0,0,0.7);
+  height: inherit;
+  /* width: 600px; */
+  height: 100%;
+
+}
+
+.hero a:hover {
+  @apply bg-red-500  animate__shakeX
+}
+
+@media ( max-width : 700px ) {
+  .footer h2 {
+    @apply text-xl
+  }
+  .hero {
+    @apply py-16 
+  }
+  .hero h3 {
+    @apply text-3xl
+  }
+  .hero a {
+    @apply relative -left-20
+  }
+  
+}
