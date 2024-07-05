@@ -103,13 +103,9 @@ const Body = () => {
         <div className=" w-full md:w-3/4 p-10 pb-3">
           <h2 className=" text-4xl mb-5 px-2 border-b pb-5">DownTown Layout</h2>
           <p className=" px-2">
-            International airports are the most significant land marks in every
-            city in the world. This is why Homland Continental Estate Umueri is
-            the best choice land Investment for those who can look into the
-            future today.
+          Over the years hush homes has consistently created an avenue of opportunity thereby making available low budget tickets and high budget tickets so everyone can become a land owner.
             <br />
-            Umueri is the 4th fastest developing city in Anambra State. It
-            boasts of Chinua Achebe International Cargo and passengers Airport
+            Here’s your chance to secure a prime real estate investment in UBULU -OKITI, Asaba, Delta state!!!
             <div></div>
           </p>
         </div>
@@ -121,11 +117,10 @@ const Body = () => {
           <div className=" text-slate-800 p-5 px-2 shadow-lg  rounded-lg text-sm">
             <h2 className=" text-3xl font-bold my-2 px-2">Details</h2>
             <span className=" font-medium inline-block my-1 rounded-md border border-green-50 p-3 ">
-              <span className="font-bold">Promo Price</span> : 5:470M
+              <span className="font-bold">350sqm Price</span> : 550K
             </span>{" "}
-            <br />
-            <span className=" font-medium inline-block my-1 rounded-md border border-green-50 p-3">
-              <span className="font-bold">Plot</span> Size : 500sqm
+            <span className=" font-medium inline-block my-1 rounded-md border border-green-50 p-3 ">
+              <span className="font-bold">500sqm Price</span> : 750K
             </span>{" "}
             <br />
             <span className=" font-medium inline-block my-1 rounded-md border border-green-50 p-3">
@@ -134,11 +129,7 @@ const Body = () => {
             </span>{" "}
             <br />
             <span className=" font-medium shadow-inner shadow-green-50 inline-block my-1 rounded-md border border-slate-50 p-3">
-              <span className="font-bold">Landmarks</span>: Chinua Achebe
-              international cargo/persengers airport UMUERI New idea
-              construction company UMUERI Capital University UMUERI Orient
-              Petroleum Nwafor Orizu college of Education Nsugbe General
-              hospital UMUERI
+              <span className="font-bold">Landmarks</span>: Prime real estate in UBULU -OKITI, Asaba, Delta state!!! 
             </span>{" "}
             <br />
             <span className=" font-medium shadow-inner shadow-green-50 inline-block my-1 rounded-md border border-slate-50 p-3">
