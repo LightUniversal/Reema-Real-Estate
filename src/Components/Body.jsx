@@ -139,10 +139,10 @@ const Body = () => {
             -OKITI, Asaba, Delta state!!!
             <div></div>
           </p>
-          <div className="homeland md:shadow-sm h-full shadow-lg rounded-lg p-1">
+          <div className="homeland md:shadow-sm  shadow-lg rounded-lg p-1">
             <video
               src={downTown}
-              className=" shadow-sm rounded h-full"
+              className=" shadow-sm rounded "
               controls
               poster={downtownimg}
             ></video>
