@@ -19,7 +19,7 @@ const Footer = () => {
           </p>
           <a
             href="mailto:reemainvestmentsandtechnologies@gmail.com"
-            className=" text-blue-500 font-medium border border-slate-900 p-2 mt-1 shadow-lg rounded-sm block text-sm break-words"
+            className=" text-blue-500 font-medium w-40 border border-slate-900 p-2 mt-1 shadow-lg rounded-sm block text-sm break-words"
           >
             Email Us
           </a>

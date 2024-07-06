@@ -1,6 +1,7 @@
 import React from "react";
 import one from "../assets/imgs/one.jpeg";
 import two from "../assets/imgs/two.jpeg";
+import homeland from "../assets/imgs/homeland.png";
 import homeLand from "../assets/videos/two.mp4";
 import downTown from "../assets/videos/one.mp4";
 
@@ -22,7 +23,11 @@ const Body = () => {
           Invest today and enjoy tommorrow
         </h3>
         <p className="relative z-20">
-        Welcome to Reema-Estate, where your dream home becomes a reality. Whether you're looking to buy, sell, or rent, our extensive listings ensure you find the perfect property. Let us help you navigate the real estate market with ease and confidence. Explore now and start your journey today!
+          Welcome to Reema-Estate, where your dream home becomes a reality.
+          Whether you're looking to buy, sell, or rent, our extensive listings
+          ensure you find the perfect property. Let us help you navigate the
+          real estate market with ease and confidence. Explore now and start
+          your journey today!
         </p>
         <div className="flex justify-center">
           <a
@@ -52,6 +57,25 @@ const Body = () => {
             boasts of Chinua Achebe International Cargo and passengers Airport
             <div></div>
           </p>
+          <div className="homeland md:shadow-sm shadow-lg mt-5 rounded-lg p-1">
+            <video
+              src={homeLand}
+              className=" shadow-sm rounded"
+              controls
+              poster=""
+            ></video>
+            <p className=" flex justify-between p-3 md:flex-nowrap flex-wrap">
+              <h2 className=" text-black text-md md:text-xl  shadow-sm p-3 font-medium my-2">
+                HomeLand Real-Estate Layout
+              </h2>
+              <a
+                href="tel:+2347058032078"
+                className=" shadow-sm text-white inline-block my-2 rounded bg-black p-3 "
+              >
+                Contact Us
+              </a>
+            </p>
+          </div>
         </div>
         <div
           className="img w-full md:w-4/5  flex gap-3 p-4  rounded-sm   md:flex-nowrap flex-wrap "
@@ -99,18 +123,43 @@ const Body = () => {
           </div>
         </div>
       </section>
-      <section id="properties" className="about text-black  border-b border-slate-200  my-1 flex-row-reverse   flex flex-wrap md:flex-nowrap gap-10 justify-between">
-        <div className=" w-full md:w-3/4 p-10 pb-3">
+      <section
+        id="properties"
+        className="about text-black  border-b border-slate-200 items-center  my-1 flex-row   flex flex-wrap md:flex-nowrap gap-10 justify-between"
+      >
+        <div className=" w-full md:w-3/4  md:h-full p-10 pb-3">
           <h2 className=" text-4xl mb-5 px-2 border-b pb-5">DownTown Layout</h2>
           <p className=" px-2">
-          Over the years hush homes has consistently created an avenue of opportunity thereby making available low budget tickets and high budget tickets so everyone can become a land owner.
+            Over the years hush homes has consistently created an avenue of
+            opportunity thereby making available low budget tickets and high
+            budget tickets so everyone can become a land owner.
             <br />
-            Here’s your chance to secure a prime real estate investment in UBULU -OKITI, Asaba, Delta state!!!
+            Here’s your chance to secure a prime real estate investment in UBULU
+            -OKITI, Asaba, Delta state!!!
             <div></div>
           </p>
+          <div className="homeland md:shadow-sm h-full shadow-lg rounded-lg p-1">
+            <video
+              src={downTown}
+              className=" shadow-sm rounded h-full"
+              controls
+            ></video>
+
+            <p className=" justify-between flex gap-2 p-3 md:flex-nowrap flex-wrap">
+              <h2 className=" text-black text-md md:text-xl shadow-sm rounded p-3 font-medium my-2">
+                DownTown Real-Estate Layout
+              </h2>
+              <a
+                href="tel:+2347058032078"
+                className=" text-white inline-block my-2 rounded bg-black p-3 "
+              >
+                Contact Us
+              </a>
+            </p>
+          </div>
         </div>
         <div
-          className="img w-full md:w-4/5  flex gap-3 p-4  rounded-sm   md:flex-nowrap flex-wrap "
+          className="img w-full md:h-full   flex gap-3 p-4  rounded-sm   md:flex-nowrap flex-wrap "
           id="img"
         >
           <img src={two} alt="" className="md:w-2/6 w-full rounded-sm" />
@@ -119,20 +168,21 @@ const Body = () => {
             <span className=" font-medium inline-block my-1 rounded-md border border-green-50 p-3 ">
               <span className="font-bold">350sqm Price</span> : 550K
             </span>{" "}
-            <span className=" font-medium inline-block my-1 rounded-md border border-green-50 p-3 ">
+            <span className=" font-medium inline-block my-1 rounded-md border border-slate-50 p-3 ">
               <span className="font-bold">500sqm Price</span> : 750K
             </span>{" "}
             <br />
-            <span className=" font-medium inline-block my-1 rounded-md border border-green-50 p-3">
+            <span className=" font-medium inline-block my-1 rounded-md border border-slate-50 p-3">
               <span className="font-bold">Title</span> : Registered Survey &
               Deed of Assignment.
             </span>{" "}
             <br />
-            <span className=" font-medium shadow-inner shadow-green-50 inline-block my-1 rounded-md border border-slate-50 p-3">
-              <span className="font-bold">Landmarks</span>: Prime real estate in UBULU -OKITI, Asaba, Delta state!!! 
+            <span className=" font-medium shadow-inner shadow-slate-50 inline-block my-1 rounded-md border border-slate-50 p-3">
+              <span className="font-bold">Landmarks</span>: Prime real estate in
+              UBULU -OKITI, Asaba, Delta state!!!
             </span>{" "}
             <br />
-            <span className=" font-medium shadow-inner shadow-green-50 inline-block my-1 rounded-md border border-slate-50 p-3">
+            <span className=" font-medium shadow-inner shadow-slate-50 inline-block my-1 rounded-md border border-slate-50 p-3">
               <span className="font-bold">Features</span>: Perimeter fencing
               Secured gate house Good drainage system 24/7 clean water supply
               Good road networks Streets lights
@@ -153,61 +203,39 @@ const Body = () => {
 
       <section className="about p-10" id="about">
         <div className="text-center">
-        <h2 className="text-3xl text-black font-bold mb-4">
-          Reema<span className="text-slate-400 ">-Estate</span>
-        </h2>
-        <p className=" text-slate-800 shadow-sm rounded-md p-3">
-          Real Estate consultant || management of properties || Land agent &
-          housing agent || Entrepreneur || Investor
-        </p>
+          <h2 className="text-3xl text-black font-bold mb-4">
+            Reema<span className="text-slate-400 ">-Estate</span>
+          </h2>
+          <p className=" text-slate-800 shadow-sm rounded-md p-3">
+            Real Estate consultant || management of properties || Land agent &
+            housing agent || Entrepreneur || Investor
+          </p>
         </div>
         <div className=" flex md:flex-nowrap flex-wrap gap-4 justify-around p-4">
-          <div className="homeland md:shadow-sm shadow-lg rounded-lg p-1">
-          <video src={downTown} className=" shadow-sm rounded" controls ></video>
-
-            <p className=" justify-between flex gap-2 p-3 md:flex-nowrap flex-wrap">
-              <h2 className=" text-black text-md md:text-xl shadow-sm rounded p-3 font-medium my-2">
-                DownTown Real-Estate Layout
-              </h2>
-              <a
-                href="tel:+2347058032078"
-                className=" text-white inline-block my-2 rounded bg-black p-3 "
-              >
-                Contact Us
-              </a>
-            </p>
-          </div>
-          <div className="homeland md:shadow-sm shadow-lg rounded-lg p-1">
-            <video src={homeLand} className=" shadow-sm rounded"  controls></video>
-            <p className=" flex justify-between p-3 md:flex-nowrap flex-wrap">
-              <h2 className=" text-black text-md md:text-xl  shadow-sm p-3 font-medium my-2">
-                HomeLand Real-Estate Layout
-              </h2>
-              <a
-                href="tel:+2347058032078"
-                className=" shadow-sm text-white inline-block my-2 rounded bg-black p-3 "
-              >
-                Contact Us
-              </a>
-            </p>
-          </div>
+          
+          
         </div>
       </section>
       <section className=" bg-black p-10">
-      <h2 className=" text-4xl mb-5 text-center border-b pb-3 border-slate-700">
+        <h2 className=" text-4xl mb-5 text-center border-b pb-3 border-slate-700">
           Let's Go!
         </h2>
         <div className="call_to_action flex justify-around flex-col md:flex-nowrap flex-wrap gap-10 md:flex-row ">
-        
-        <div className="details">
-         Let us help you navigate the real estate market with ease and confidence. Your ideal home is just a click away. Explore now and start your journey today!
+          <div className="details">
+            Let us help you navigate the real estate market with ease and
+            confidence. Your ideal home is just a click away. Explore now and
+            start your journey today!
+          </div>
+          <div className="call">
+            <a
+              href="tel:+2347058032078"
+              className=" flex gap-2 items-center w-40 bg-blue-800 rounded-md p-3"
+            >
+              Call Us Now <FaPhone />
+            </a>
+          </div>
         </div>
-        <div className="call">
-          <a href="tel:+2347058032078" className=" flex gap-2 items-center w-40 bg-blue-800 rounded-md p-3">Call Us Now <FaPhone /></a>
-        </div>
-      </div>
       </section>
-      
     </div>
   );
 };
