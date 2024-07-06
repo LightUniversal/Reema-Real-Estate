@@ -1,7 +1,8 @@
 import React from "react";
 import one from "../assets/imgs/one.jpeg";
 import two from "../assets/imgs/two.jpeg";
-import homeland from "../assets/imgs/homeland.png";
+import homelandimg from "../assets/imgs/homeland.png";
+import downtownimg from "../assets/imgs/downtown.png";
 import homeLand from "../assets/videos/two.mp4";
 import downTown from "../assets/videos/one.mp4";
 
@@ -62,7 +63,7 @@ const Body = () => {
               src={homeLand}
               className=" shadow-sm rounded"
               controls
-              poster=""
+              poster={homelandimg}
             ></video>
             <p className=" flex justify-between p-3 md:flex-nowrap flex-wrap">
               <h2 className=" text-black text-md md:text-xl  shadow-sm p-3 font-medium my-2">
@@ -143,6 +144,7 @@ const Body = () => {
               src={downTown}
               className=" shadow-sm rounded h-full"
               controls
+              poster={downtownimg}
             ></video>
 
             <p className=" justify-between flex gap-2 p-3 md:flex-nowrap flex-wrap">
@@ -178,8 +180,7 @@ const Body = () => {
             </span>{" "}
             <br />
             <span className=" font-medium shadow-inner shadow-slate-50 inline-block my-1 rounded-md border border-slate-50 p-3">
-              <span className="font-bold">Landmarks</span>: Prime real estate in
-              UBULU -OKITI, Asaba, Delta state!!!
+              <span className="font-bold">Landmarks</span>: Downtown layout Phase 2 OBULU-OKITI, Asaba, Delta State.
             </span>{" "}
             <br />
             <span className=" font-medium shadow-inner shadow-slate-50 inline-block my-1 rounded-md border border-slate-50 p-3">
